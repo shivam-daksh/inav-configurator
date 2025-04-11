@@ -3,9 +3,9 @@ const fs = require('fs');
 
 module.exports = {
   packagerConfig: {
-    executableName: "inav-configurator",
+    executableName: "idr-configurator",
     asar: false,
-    icon: 'images/inav',
+    icon: 'images/idr',
     ignore: [
       "^(\/\.vscode$)",
       "^(\/support$)",
@@ -18,7 +18,7 @@ module.exports = {
       "MAPPROXY.md",
       "package-lock.json",
       "README.md",
-      "inav_icon_128.psd",
+      "idr_icon_128.psd",
     ]
   },
   hooks: {
@@ -43,15 +43,15 @@ module.exports = {
     {
       name: '@electron-forge/maker-wix',
       config: {
-        name: "INAV Configurator",
-        shortName: "INAV",
-        exe: "inav-configurator",
-        description: "Configurator for the open source flight controller software INAV.",
-        programFilesFolderName: "inav-configurator",
-        shortcutFolderName: "INAV",
-        manufacturer: "The INAV open source project",
-        appUserModelId: "com.inav.configurator",
-        icon: path.join(__dirname, "./assets/windows/inav_installer_icon.ico"),
+        name: "IDR Configurator",
+        shortName: "IDR",
+        exe: "idr-configurator",
+        description: "Configurator for the open source flight controller software IDR.",
+        programFilesFolderName: "idr-configurator",
+        shortcutFolderName: "IDR",
+        manufacturer: "The IDR open source project",
+        appUserModelId: "com.idr.configurator",
+        icon: path.join(__dirname, "./assets/windows/idr_installer_icon.ico"),
         upgradeCode: "13606ff3-b0bc-4dde-8fac-805bc8aed2f8",
         ui : {
           enabled: false,
@@ -78,9 +78,9 @@ module.exports = {
     {
       name: '@electron-forge/maker-dmg',
       config: {
-        name: "INAV Configurator",
+        name: "IDR Configurator",
         background: "./assets/osx/dmg-background.png",
-        icon: "./images/inav.icns"
+        icon: "./images/idr.icns"
       }
     },
     {
@@ -91,12 +91,12 @@ module.exports = {
       name: '@electron-forge/maker-deb',
       config: {
         options: {
-          name: "inav-configurator",
-          productName: "INAV Configurator",
+          name: "idr-configurator",
+          productName: "IDR Configurator",
           categories: ["Utility"],
-          icon: "./assets/linux/icon/inav_icon_128.png",
-          description: "Configurator for the open source flight controller software INAV.",
-          homepage: "https://github.com/inavflight/",
+          icon: "./assets/linux/icon/idr_icon_128.png",
+          description: "Configurator for the open source flight controller software IDR.",
+          homepage: "https://github.com/idrflight/",
 
         }
       },
@@ -105,13 +105,13 @@ module.exports = {
       name: '@electron-forge/maker-rpm',
       config: {
         options: {
-          name: "inav-configurator",
-          productName: "INAV Configurator",
+          name: "idr-configurator",
+          productName: "IDR Configurator",
           license: "GPL-3.0",
           categories: ["Utility"],
-          icon: "./assets/linux/icon/inav_icon_128.png",
-          description: "Configurator for the open source flight controller software INAV.",
-          homepage: "https://github.com/inavflight/",
+          icon: "./assets/linux/icon/idr_icon_128.png",
+          description: "Configurator for the open source flight controller software IDR.",
+          homepage: "https://github.com/idrflight/",
         }
       },
     },

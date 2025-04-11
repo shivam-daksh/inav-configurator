@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=INAV Configurator
-Comment=Crossplatform configuration tool for the INAV flight control system
+Name=IDR Configurator
+Comment=Crossplatform configuration tool for the IDR flight control system
 Exec=/opt/inav/inav-configurator/inav-configurator
 Icon=/opt/inav/inav-configurator/resources/app/assets/linux/icon/inav_icon_128.png
 Terminal=false

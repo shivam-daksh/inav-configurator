@@ -209,7 +209,7 @@
         "message": "Simulator Input"
     },
     "sitlInavOutput": {
-        "message": "INAV Output"
+        "message": "IDR Output"
     },
     "sitlLog": {
         "message": "Log"
@@ -272,13 +272,13 @@
         "message": "Enable"
     },
     "sitlHelp": {
-        "message": "SITL (Software in the loop) allows to run INAV completely in software on the PC without using a flight controller and simulate complete FPV flights. For this, INAV is compiled with a normal PC compiler. The sensors are replaced by data provided by a simulator.<br/>Currently supported are:<br/><ul><li><a href=\"https://www.realflight.com\" target=\"_blank\">RealFlight</a><br/></li><li><a href=\"https://www.x-plane.com\" target=\"_blank\">X-Plane</a></li></ul>"
+        "message": "SITL (Software in the loop) allows to run IDR completely in software on the PC without using a flight controller and simulate complete FPV flights. For this, IDR is compiled with a normal PC compiler. The sensors are replaced by data provided by a simulator.<br/>Currently supported are:<br/><ul><li><a href=\"https://www.realflight.com\" target=\"_blank\">RealFlight</a><br/></li><li><a href=\"https://www.x-plane.com\" target=\"_blank\">X-Plane</a></li></ul>"
     },
     "sitlProfilesHelp": {
-        "message": "Profiles are saved locally. The profiles contain not only all data of this tab, but also the configuration file (\"EEPROM\") of INAV itself. <br><span style=\"color: red\">Note:</span><br>Standard profiles can't be overwriten. To save your changes, create a new profile. "
+        "message": "Profiles are saved locally. The profiles contain not only all data of this tab, but also the configuration file (\"EEPROM\") of IDR itself. <br><span style=\"color: red\">Note:</span><br>Standard profiles can't be overwriten. To save your changes, create a new profile. "
     },
     "sitlEnableSimulatorHelp": {
-        "message": "If this option is deactivated, only UARTS (MSP/Configurator) can be used. Useful to configure INAV without having to start the simulator."
+        "message": "If this option is deactivated, only UARTS (MSP/Configurator) can be used. Useful to configure IDR without having to start the simulator."
     },
     "sitlUseImuHelp": {
         "message": "Use IMU sensor data from the simulator instead of using attitude data from the simulator directly (Experimental, not recommended)."
@@ -435,7 +435,7 @@
         "message": "This firmware version is <span style=\"color: red\">not supported</span>. This version of Configurator supports firmware from $1 to $2 (excluded)"
     },
     "firmwareVariantNotSupported": {
-        "message": "This firmware variant is <span style=\"color: red\">not supported</span>. Please upgrade to INAV firmware. Use CLI for backup before flashing.  CLI backup/restore procedure is in the documention."
+        "message": "This firmware variant is <span style=\"color: red\">not supported</span>. Please upgrade to IDR firmware. Use CLI for backup before flashing.  CLI backup/restore procedure is in the documention."
     },
 
     "tabSwitchConnectionRequired": {
@@ -517,16 +517,16 @@
     },
 
     "defaultWelcomeIntro": {
-        "message": "Welcome to <strong>INAV - Configurator</strong>, a utility designed to simplify updating, configuring and tuning of your flight controller."
+        "message": "Welcome to <strong>IDR - Configurator</strong>, a utility designed to simplify updating, configuring and tuning of your flight controller."
     },
     "defaultWelcomeHead": {
         "message": "Firmware & drivers"
     },
     "defaultWelcomeHead2": {
-        "message": "INAV Friends"
+        "message": "IDR Friends"
     },
     "defaultWelcomeText2": {
-        "message": "INAV is supported by a great community of users, developers and companies. Here is a short list: <a href=\"http://www.mateksys.com/\" target=\"_blank\">Mateksys</a>, <a href=\"https://www.speedybee.com/\" target=\"_blank\">SpeedyBee</a>, <a href=\"https://geprc.com/\" target=\"_blank\">GEPRC</a>. "
+        "message": "IDR is supported by a great community of users, developers and companies. Here is a short list: <a href=\"http://www.mateksys.com/\" target=\"_blank\">Mateksys</a>, <a href=\"https://www.speedybee.com/\" target=\"_blank\">SpeedyBee</a>, <a href=\"https://geprc.com/\" target=\"_blank\">GEPRC</a>. "
     },
     "defaultWelcomeText": {
         "message": "The firmware source code can be downloaded from <a href=\"https://github.com/iNavFlight\" title=\"www.github.com\" target=\"_blank\">here</a><br />The newest binary firmware image is available <a href=\"https://github.com/iNavFlight/inav/releases\" title=\"www.github.com\" target=\"_blank\">here</a>.<br /><br />Latest <strong>STM USB VCP Drivers</strong> can be downloaded from <a href=\"http://www.st.com/web/en/catalog/tools/PF257938\" title=\"http://www.st.com\" target=\"_blank\">here</a><br />Latest <strong>Zadig</strong> for Windows DFU flashing can be downloaded from <a href=\"http://zadig.akeo.ie/\" title=\"http://zadig.akeo.ie\" target=\"_blank\">here</a><br />"
@@ -535,7 +535,7 @@
         "message": "Contributing"
     },
     "defaultContributingText": {
-        "message": "If you would like to help make INAV even better you can help in many ways, including:<br /><ul><li>Answering other users questions on the forums and IRC.</li><li>Contributing code to the firmware and configurator - new features, fixes, improvements</li><li>Testing <a href=\"https://github.com/iNavFlight/inav/pulls\" target=\"_blank\">new features/fixes</a> and providing feedback.</li><li>Helping out with <a href=\"https://github.com/iNavFlight/inav/issues\" target=\"_blank\">issues and commenting on feature requests</a>.</li></ul>"
+        "message": "If you would like to help make IDR even better you can help in many ways, including:<br /><ul><li>Answering other users questions on the forums and IRC.</li><li>Contributing code to the firmware and configurator - new features, fixes, improvements</li><li>Testing <a href=\"https://github.com/iNavFlight/inav/pulls\" target=\"_blank\">new features/fixes</a> and providing feedback.</li><li>Helping out with <a href=\"https://github.com/iNavFlight/inav/issues\" target=\"_blank\">issues and commenting on feature requests</a>.</li></ul>"
     },
     "defaultChangelogHead": {
         "message": "Configurator - Changelog"
@@ -547,16 +547,16 @@
         "message": "Open Source / Donation Notice"
     },
     "defaultDonateText": {
-        "message": "This utility is fully <strong>open source</strong> and is available free of charge to all <strong>INAV</strong> users.<br />If you found the INAV or INAV Configurator useful, please consider <strong>supporting</strong> its development by donating."
+        "message": "This utility is fully <strong>open source</strong> and is available free of charge to all <strong>IDR</strong> users.<br />If you found the IDR or IDR Configurator useful, please consider <strong>supporting</strong> its development by donating."
     },
     "defaultSponsorsHead": {
-        "message": "INAV is supported by"
+        "message": "IDR is supported by"
     },
     "communityRCGroupsSupport": {
         "message": "RC Groups Support"
     },
     "communityDiscordServer": {
-        "message": "Discord Server"
+        "message": "LinkedIn"
     },
     "communitySlackSupport": {
         "message": "Slack Support Live Chat"
@@ -565,10 +565,10 @@
         "message": "Telegram Channel"
     },
     "communityFacebookSupport": {
-        "message": "Facebook Group"
+        "message": "Instagram"
     },
     "initialSetupBackupAndRestoreApiVersion": {
-        "message": "<span style=\"color: red\">Backup and restore functionality disabled.</span>  You have firmware with API version <span style=\"color: red\">$1</span>, backup and restore requires <span style=\"color: #37a8db\">$2</span>.  Please backup your settings via the CLI, see INAV documentation for procedure."
+        "message": "<span style=\"color: red\">Backup and restore functionality disabled.</span>  You have firmware with API version <span style=\"color: red\">$1</span>, backup and restore requires <span style=\"color: #37a8db\">$2</span>.  Please backup your settings via the CLI, see IDR documentation for procedure."
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "Calibrate Accelerometer"
@@ -855,7 +855,7 @@
         "message": "Enable motor and servo output"
     },
     "featurePWM_OUTPUT_ENABLETip": {
-        "message": "Enabling this option is required for INAV to send signals to ESC. It is a safety precaution that prevents servos from being damaged right after flashing flight controller."
+        "message": "Enabling this option is required for IDR to send signals to ESC. It is a safety precaution that prevents servos from being damaged right after flashing flight controller."
     },
     "featureBLACKBOX": {
         "message": "Blackbox flight data recorder"
@@ -2493,7 +2493,7 @@
         "message": "No reboot sequence"
     },
     "firmwareFlasherOnlineSelectBoardDescription": {
-        "message": "Select your board to see available online firmware releases - Select the correct firmware appropriate for your board. Please note that <strong>Auto-select Target</strong> will only work for INAV firmwares 5.0 and newer."
+        "message": "Select your board to see available online firmware releases - Select the correct firmware appropriate for your board. Please note that <strong>Auto-select Target</strong> will only work for IDR firmwares 5.0 and newer."
     },
     "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
         "message": "Select firmware version for your board.<br />Note: even though you can flash different versions of the firmware using this Configurator. When setting up the flight controller, you should match the major and minor version numbers for both firmware and Configurator."
@@ -2580,13 +2580,13 @@
         "message": "Warning"
     },
     "firmwareFlasherWarningText": {
-        "message": "Please do <span style=\"color: red\">not</span> try to flash <strong>non-iNAV</strong> hardware with this firmware flasher.<br />Do <span style=\"color: red\">not</span> <strong>disconnect</strong> the board or <strong>turn off</strong> your computer while flashing.<br /><br /><strong>Note: </strong>STM32 bootloader is stored in ROM, it cannot be bricked.<br /><!--strong>Note: </strong><span style=\"color: red\">Auto-Connect</span> is always disabled while you are inside firmware flasher.<br / --><strong>Note: </strong>Make sure you have a backup; some upgrades/downgrades will wipe your configuration.<br /><strong>Note:</strong> If you have problems flashing try disconnecting all cables from your FC first, try rebooting, upgrade chrome, upgrade drivers.<br /><strong>Note:</strong> When flashing boards that have directly connected USB sockets (Matek H743-SLIM, Holybro Kakute etc) ensure you have read the USB Flashing section of the INAV manual and have the correct software and drivers installed"
+        "message": "Please do <span style=\"color: red\">not</span> try to flash <strong>non-iNAV</strong> hardware with this firmware flasher.<br />Do <span style=\"color: red\">not</span> <strong>disconnect</strong> the board or <strong>turn off</strong> your computer while flashing.<br /><br /><strong>Note: </strong>STM32 bootloader is stored in ROM, it cannot be bricked.<br /><!--strong>Note: </strong><span style=\"color: red\">Auto-Connect</span> is always disabled while you are inside firmware flasher.<br / --><strong>Note: </strong>Make sure you have a backup; some upgrades/downgrades will wipe your configuration.<br /><strong>Note:</strong> If you have problems flashing try disconnecting all cables from your FC first, try rebooting, upgrade chrome, upgrade drivers.<br /><strong>Note:</strong> When flashing boards that have directly connected USB sockets (Matek H743-SLIM, Holybro Kakute etc) ensure you have read the USB Flashing section of the IDR manual and have the correct software and drivers installed"
     },
     "firmwareFlasherRecoveryHead": {
         "message": "<strong>Recovery / Lost communication<strong>"
     },
     "firmwareFlasherRecoveryText": {
-        "message": "If you have lost communication with your board follow these steps to restore communication: <ul><li>Power off</li><li>Enable 'No reboot sequence', enable 'Full chip erase'.</li><li>Jumper the BOOT pins or hold BOOT button.</li><li>Power on (activity LED will NOT flash if done correctly).</li><li>Install all STM32 drivers and Zadig if required (see <a href=\"https://github.com/iNavFlight/inav/blob/master/docs/USB%20Flashing.md\"target=\"_blank\">USB Flashing</a> section of INAV manual).</li><li>Close configurator, Close all running chrome instances, Close all Chrome apps, Restart Configurator.</li><li>Release BOOT button if your FC has one.</li><li>Flash with correct firmware (using manual baud rate if specified in your FC's manual).</li><li>Power off.</li><li>Remove BOOT jumper.</li><li>Power on (activity LED should flash).</li><li>Connect normally.</li></ul>"
+        "message": "If you have lost communication with your board follow these steps to restore communication: <ul><li>Power off</li><li>Enable 'No reboot sequence', enable 'Full chip erase'.</li><li>Jumper the BOOT pins or hold BOOT button.</li><li>Power on (activity LED will NOT flash if done correctly).</li><li>Install all STM32 drivers and Zadig if required (see <a href=\"https://github.com/iNavFlight/inav/blob/master/docs/USB%20Flashing.md\"target=\"_blank\">USB Flashing</a> section of IDR manual).</li><li>Close configurator, Close all running chrome instances, Close all Chrome apps, Restart Configurator.</li><li>Release BOOT button if your FC has one.</li><li>Flash with correct firmware (using manual baud rate if specified in your FC's manual).</li><li>Power off.</li><li>Remove BOOT jumper.</li><li>Power on (activity LED should flash).</li><li>Connect normally.</li></ul>"
     },
     "firmwareFlasherButtonLeave": {
         "message": "Leave Firmware Flasher"
@@ -2635,7 +2635,7 @@
         "message": "Arbitrary board rotation in degrees, to allow mounting it sideways / upside down / rotated etc. When running external sensors, use the sensor alignments (Gyro, Acc, Mag) to define sensor position independent from board orientation. "
     },
     "failsafeFeaturesHelpOld": {
-        "message": "Failsafe configuration has changed considerably. Use latest INAV"
+        "message": "Failsafe configuration has changed considerably. Use latest IDR"
     },
     "failsafePaneTitleOld": {
         "message": "Receiver failsafe"
@@ -3227,13 +3227,13 @@
         "message": "Failsafe Mission Delay"
     },
     "fsMissionDelayHelp": {
-        "message": "Defines a delay in seconds, how long INAV has to wait before Failsafe RTH is engaged, if the Aircraft is in a waypoint mission. Set to -1 to disable Failsafe entirely [0-600s]"
+        "message": "Defines a delay in seconds, how long IDR has to wait before Failsafe RTH is engaged, if the Aircraft is in a waypoint mission. Set to -1 to disable Failsafe entirely [0-600s]"
     },
     "drNavigation": {
         "message": "Dead Reckoning Navigation"
     },
     "drNavigationHelp": {
-        "message": "Allows INAV to continue navigation (Waypoint, Return to Home, Cruise, Coursehold, etc.) during short GPS outages. This feature needs compass and airspeed sensor enabled on Fixed Wing aircraft."
+        "message": "Allows IDR to continue navigation (Waypoint, Return to Home, Cruise, Coursehold, etc.) during short GPS outages. This feature needs compass and airspeed sensor enabled on Fixed Wing aircraft."
     },
     "rthAltitude": {
         "message": "RTH altitude"
@@ -3569,7 +3569,7 @@
         "message": "Max. tailwind"
     },
     "fwLandMaxTailwindHelp": {
-        "message": "This value is used when no headwind landing is possible and wind speeds below this value are ignored (inaccuracies in INAV wind measurement)."
+        "message": "This value is used when no headwind landing is possible and wind speeds below this value are ignored (inaccuracies in IDR wind measurement)."
     },
     "osd_unsupported_msg1": {
         "message": "Your flight controller isn't responding to OSD commands. This probably means that it does not have an integrated OSD."
@@ -3602,7 +3602,7 @@
         "message": "Use pilot logo"
     },
     "osd_use_large_pilot_logo_help": {
-        "message": "Use your large pilot logo with/instead of the INAV logo. This requires a custom font with your pilot logo. This is seen on the arming screen."
+        "message": "Use your large pilot logo with/instead of the IDR logo. This requires a custom font with your pilot logo. This is seen on the arming screen."
     },
     "osd_units": {
         "message": "Units"
@@ -3677,7 +3677,7 @@
         "message": "Maximum number of radar elements on screen."
     },
     "osd_hud_radar_disp_help": {
-        "message": "This is used for INAV Radar/FormationFlight. 0 disables this feature."
+        "message": "This is used for IDR Radar/FormationFlight. 0 disables this feature."
     },
 
     "osd_hud_radar_range_min": {
@@ -3977,10 +3977,10 @@
         "message": "Active power limit"
     },
     "osdElement_THROTTLE_POSITION_HELP": {
-        "message": "Shows the throttle stick position in flight modes where <i>it</i> controls the throttle output. On navigation modes, it shows the throttle value commanded by INAV."
+        "message": "Shows the throttle stick position in flight modes where <i>it</i> controls the throttle output. On navigation modes, it shows the throttle value commanded by IDR."
     },
     "osdElement_SCALED_THROTTLE_POSITION_HELP": {
-        "message": "Shows the throttle stick position in flight modes where <i>it</i> controls the throttle output. On navigation modes, it shows the throttle value commanded by INAV. This throttle is scaled based on the idle throttle and max throttle."
+        "message": "Shows the throttle stick position in flight modes where <i>it</i> controls the throttle output. On navigation modes, it shows the throttle value commanded by IDR. This throttle is scaled based on the idle throttle and max throttle."
     },
     "osdElement_GPS_SPEED": {
         "message": "Ground Speed"
@@ -5237,10 +5237,10 @@
         "message": "Default values"
     },
     "defaultsDialogInfo": {
-        "message": "INAV Configurator would like to know which kind of UAV you are configuring. Based on this information it will modify some default values to unlock the best flying performance. "
+        "message": "IDR Configurator would like to know which kind of UAV you are configuring. Based on this information it will modify some default values to unlock the best flying performance. "
     },
     "defaultsDialogInfo2": {
-        "message": "Avoid blindly restoring all PID and filter configuration from the previous version of INAV. The best result can be obtained by retuning from defaults!"
+        "message": "Avoid blindly restoring all PID and filter configuration from the previous version of IDR. The best result can be obtained by retuning from defaults!"
     },
     "throttleIdle": {
         "message": "Motors IDLE power [%]"
@@ -5261,7 +5261,7 @@
         "message": "When Reversible Motors are used, set Motors IDLE power to 0%"
     },
     "dynamic_gyro_notch_enabled_help": {
-        "message": "Matrix Gyro Filter is the new generation of dynamic gyro notches available in INAV. It is recommended to enable it on all Multirotor builds on F4 and F7 flight controllers."
+        "message": "Matrix Gyro Filter is the new generation of dynamic gyro notches available in IDR. It is recommended to enable it on all Multirotor builds on F4 and F7 flight controllers."
     },
     "globalFunctions": {
         "message": "Global functions"
@@ -6015,10 +6015,10 @@
         "message": "Cannot prefetch target: Flight Controller in DFU"
     },
     "targetPrefetchFailOld": {
-        "message": "Cannot prefetch target: INAV Firmware too old"
+        "message": "Cannot prefetch target: IDR Firmware too old"
     },
     "targetPrefetchFailNonINAV": {
-        "message": "Cannot prefetch target: Non-INAV Firmware"
+        "message": "Cannot prefetch target: Non-IDR Firmware"
     },
     "targetPrefetchFailNoPort": {
         "message": "Cannot prefetch target: No port"
@@ -6057,7 +6057,7 @@
         "message": "Helps to have a snappy stick feeling. Whenever you do a fast stick movement, high Snappiness will accelerate the drone response. Both when you start and stop the manouver. Try different values to find the one that suits you best."
     },
     "ezTuneFilterHzTips": {
-        "message": "This sets the base cutoff frequency for all INAV gyro and D-term filters. Higher values will result in lower filter delay and better stabilization, but more noise will go through the filters and motors will get hot, UAV might oscillate and be unfyable. Your goal is to increase this value as high as possible before any negative effects appear. Negative effects include: hot motors, audible osciallations, UAV rapidly shaking, UAV gaining altitude by itself. Usual starting points for 'Filter Hz' are: <strong>3-inch props</strong>: 90, <strong>5-inch props</strong>: 110, <strong>7-inch props</strong>: 90, <strong>10-inch props</strong>: 75, <strong>12-inch props</strong>: 60. Use Blackbox and common sense to find a value that is most suited for your UAV."
+        "message": "This sets the base cutoff frequency for all IDR gyro and D-term filters. Higher values will result in lower filter delay and better stabilization, but more noise will go through the filters and motors will get hot, UAV might oscillate and be unfyable. Your goal is to increase this value as high as possible before any negative effects appear. Negative effects include: hot motors, audible osciallations, UAV rapidly shaking, UAV gaining altitude by itself. Usual starting points for 'Filter Hz' are: <strong>3-inch props</strong>: 90, <strong>5-inch props</strong>: 110, <strong>7-inch props</strong>: 90, <strong>10-inch props</strong>: 75, <strong>12-inch props</strong>: 60. Use Blackbox and common sense to find a value that is most suited for your UAV."
     },
     "ezTuneAxisRatioTips": {
         "message": "Describes the weight/moment of inertia distribution of your UAV. The longer the frame (more mass on the front-back axis) more Axis Ratio is requires. Perfect X frame is ratio 100. Most modern frames should fit somewhere between 110 and 130. Default 110 is a good starting point."
@@ -6096,10 +6096,10 @@
         "message": "Expo"
     },
     "ezTuneEnabledTips": {
-        "message": "When enabled, <strong>Ez Tune</strong> will override multiple INAV setting to simplify the tuning process. Instead of setting each PID and filtering setting independently, you only have to work with 7 sliders. Ez Tune will automatically adjust all other settings to match your needs. Ez Tune is a great starting point for new users and a great way to quickly tune a new UAV. It is not recommended to use Ez Tune on advanced builds, as it will override all your settings and you will not be able to fine tune your UAV. When Ez Tune is enabled, settings from the <strong>PID tuning</strong> tab will be overriden by EzTune."
+        "message": "When enabled, <strong>Ez Tune</strong> will override multiple IDR setting to simplify the tuning process. Instead of setting each PID and filtering setting independently, you only have to work with 7 sliders. Ez Tune will automatically adjust all other settings to match your needs. Ez Tune is a great starting point for new users and a great way to quickly tune a new UAV. It is not recommended to use Ez Tune on advanced builds, as it will override all your settings and you will not be able to fine tune your UAV. When Ez Tune is enabled, settings from the <strong>PID tuning</strong> tab will be overriden by EzTune."
     },
     "ezTuneDisclaimer": {
-        "message": "<strong>Disclaimer:</strong> Ez Tune is an experimental function. It is not guaranteed to work on all UAVs. It is not guaranteed to work with all frame types. It is not guaranteed to work with all propellers. All computations and tuning result can change in future versions of INAV. We still encourage you to check it out and share your experience on INAV Discord in the <strong>#ez-tune</strong> channel"
+        "message": "<strong>Disclaimer:</strong> Ez Tune is an experimental function. It is not guaranteed to work on all UAVs. It is not guaranteed to work with all frame types. It is not guaranteed to work with all propellers. All computations and tuning result can change in future versions of IDR. We still encourage you to check it out and share your experience on IDR Discord in the <strong>#ez-tune</strong> channel"
     },
     "ezTuneNote": {
         "message": "<strong>Important</strong> Ez Tune is enabled. All settings on this tab are set and controlled by the Ez Tune. To use PID Tuning tab you have to disable Ez Tune. To do it, uncheck the <strong>Enabled</strong> checkbox on the Ez Tune tab."
