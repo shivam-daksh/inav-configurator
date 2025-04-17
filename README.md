@@ -9,7 +9,7 @@
 - **Enhanced User Interface:** Refined UI elements for improved user experience and accessibility.
 - **Modular Architecture:** Structured codebase allowing for easier maintenance and scalability.
 - **Extended Documentation:** Comprehensive feature documentation available in the `docs/` directory.
-- **Customizable Settings:** Advanced configuration options to cater to diverse user requirements.
+- **Customizable Settings:** Advanced configuration options to cater to diverse user requirements.
 
 ---
 
@@ -19,7 +19,7 @@
 
 - **Node.js** (version 14.x or higher)
 - **npm** (Node Package Manager)
-- **Git** (for cloning the repository)
+- **Git** (for cloning the repository)
 
 ### Steps
 
