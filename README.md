@@ -2,8 +2,6 @@
 
 **IDR Configurator** is a cross-platform configuration utility designed for unmanned aerial vehicles (UAVs), constructed atop the robust framework of the [INAV Configurator](https://github.com/iNavFlight/inav-configurator). This tool facilitates the configuration and fine-tuning of various aircraft types, including quadcopters, hexacopters, octocopters, and fixed-wing aircraft, by interfacing seamlessly with the INAV flight control firmware.
 
-> **Note:** IDR Configurator is an independent project and is not officially affiliated with or endorsed by the INAV development team.
-
 ---
 
 ## Features
